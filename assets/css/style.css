@@ -1,3 +1,5 @@
+
+
 /* nav section styles */
 .navBar{
     justify-content: space-between;
@@ -6,9 +8,15 @@
 margin:auto;
 }
 
+section {
+    background-color: rgba(218, 177, 209, 0.339);
+}
 
 /* banner styles */
 
+#Jumbo{
+    padding-bottom: 40px;
+}
 .banner{
     display: flex;
     background-size:cover;
@@ -25,4 +33,27 @@ margin:auto;
     align-items: center;
     justify-content: center;
     color: antiquewhite;
+    
+}
+
+h2{
+    text-shadow:black 1px 0 10px;
+}
+
+/* card container styles */
+/* .cardContainer{
+    width: 80%;
+    margin: auto;
+} */
+.row {
+    margin: auto;
+    width: 95%;
+}
+.card {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    font-weight: bold;
 }
