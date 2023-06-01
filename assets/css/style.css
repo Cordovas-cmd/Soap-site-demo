@@ -1,0 +1,28 @@
+/* nav section styles */
+.navBar{
+    justify-content: space-between;
+}
+.navList{
+margin:auto;
+}
+
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    background-size:cover;
+    height: 600px;
+    width: 85dvw;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    /* background-clip: inherit; */
+    background-repeat: no-repeat;
+    background-image: url('../images/flower-soap.jpg');
+    /* background: rgba(116, 46, 46, 1); */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+}
