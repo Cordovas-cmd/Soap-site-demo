@@ -15,6 +15,14 @@ margin:auto;
 .navList li:hover {
     background-color: rgba(218, 177, 209, 0.339);
 }
+.cart{
+    padding: 10px;
+    border-radius: 30%;
+}
+.cart:hover{
+    background-color: rgb(142, 119, 166);
+    background-color: rgba(218, 177, 209, 0.339);
+}
 section {
     background-color: rgba(218, 177, 209, 0.339);
 }
@@ -66,5 +74,6 @@ h2{
 }
 
 .card:hover{
-    background-color: rgba(77, 143, 108, 0.339);
+    /* background-color: rgba(77, 143, 108, 0.339); */
+    background-color: rgba(30, 93, 60, 0.339);
 }
