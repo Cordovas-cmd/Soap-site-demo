@@ -1,5 +1,7 @@
 
-
+body {
+    background-color: rgba(218, 177, 209, 0.339);
+}
 /* nav section styles */
 .navBar{
     justify-content: space-between;
@@ -29,37 +31,16 @@ section {
 
 /* banner styles */
 
-#Jumbo{
+.Jumbo{
     padding-bottom: 40px;
 }
-.banner{
-    display: flex;
-    background-size:cover;
-    height: 600px;
-    width: 85dvw;
-    margin: auto;
-    background-position: center;
-    background-size: cover;
-    /* background-clip: inherit; */
-    background-repeat: no-repeat;
-    background-image: url('../images/flower-soap.jpg');
-    /* background: rgba(116, 46, 46, 1); */
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: antiquewhite;
-    
-}
+
 
 h2{
     text-shadow:black 1px 0 10px;
 }
 
-/* card container styles */
-/* .cardContainer{
-    width: 80%;
-    margin: auto;
-} */
+
 .row {
     margin: auto;
     width: 95%;
@@ -77,3 +58,51 @@ h2{
     /* background-color: rgba(77, 143, 108, 0.339); */
     background-color: rgba(30, 93, 60, 0.339);
 }
+
+
+/* Carousel styles */
+.carousel {
+    height: 600px;
+    width: 85dvw;
+    margin: auto;
+    text-align: center;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(218, 177, 209, 0.339);
+   
+}
+.carousel h2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide1{
+    background-image: url('../images/flower-soap.jpg');
+}
+.slide2{
+    background-image: url('../images/photosoap.png');
+}
+
+
+.slide1, .slide2{
+    display: flex;
+    background-size:cover;
+    height: 600px;
+    width: 85dvw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex;
+    flex-direction: column;
+}
+
